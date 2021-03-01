@@ -35,7 +35,7 @@ public class Game {
         try {
             Draw();
             KeyStroke key = screen.readInput();
-            while(!(KeyType.Character == key.getKeyType() && key.getCharacter() == 'q')) {
+            while(!(KeyType.Character == key.getKeyType() && key.getCharacter() == 'q') && arena.verifyMonsterCollisions()) {
                 Draw();
                 System.out.println(key.getKeyType());
                 processKey(key);
@@ -51,6 +51,8 @@ public class Game {
                 else if (key.getKeyType() == KeyType.ArrowRight) {
                     arena.moveHero(arena.MoveRight(1));
                 }
+                arena.retrieveCoins();
+                arena.moveMonsters();
                 key = screen.readInput();
             }
         } catch (IOException e) {

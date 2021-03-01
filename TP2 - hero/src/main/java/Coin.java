@@ -10,6 +10,6 @@ public class Coin extends Element{
 
     @Override
     public void draw(TextGraphics graphics){
-        graphics.putString(new TerminalPosition(this.getPosition().getPositionX() * 2, this.getPosition().getPositionY() * 2), "\\/");
+        graphics.putString(new TerminalPosition(this.getPosition().getPositionX() , this.getPosition().getPositionY()), "$");
     }
 }
