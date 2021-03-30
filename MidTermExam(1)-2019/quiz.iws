@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b435420-c662-432d-9308-eb90bd7ac2cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/quiz.iws" beforeDir="false" afterPath="$PROJECT_DIR$/quiz.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MidTermExam-2018/quiz.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../MidTermExam-2018/quiz.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +12,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,7 +39,8 @@
     <option name="width" value="1920" />
     <option name="height" value="1060" />
   </component>
-  <component name="ProjectId" id="1qR9G4llMbhwR290KrdRbV9fzMK" />
+  <component name="ProjectId" id="1qUS6Erqnm8PvEcJY8vRPBsu04C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -91,7 +91,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553520726322" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MidTermExam-2018" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -101,23 +101,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in quiz">
+  <component name="RunManager" selected="JUnit.TestCases">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in quiz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="quiz" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCases" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <configuration name="TestCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="quiz" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestCases" />
@@ -189,7 +180,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in quiz" />
+        <item itemvalue="JUnit.TestCases" />
         <item itemvalue="JUnit.TestCases.testInvalidTicket" />
         <item itemvalue="JUnit.TestCases.testParticipates" />
         <item itemvalue="JUnit.TestCases.testContains" />
@@ -282,6 +273,17 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
